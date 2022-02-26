@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form name="formulario">
+
+        <textarea id="con1" cols="30" rows="10">ingrese un texto</textarea>
+        <input type="button" onclick="contador()" value="enviar">
+
+        <!-- <input type="text" name="text1">
+        <input type="button" onclick="con()" value="enviar"> -->
+    </form>
+
+    <script>
+        function contador() {
+            var textarea = document.getElementById('con1').value;
+            var cont = 0;
+            for (var i = 0; i < textarea.length ; i++) {
+                cont = cont + 1;
+            }
+            alert('la cantidad de caracteres es' + ' ' + cont)
+        }
+
+        // function con() {
+        //     var conta = 0;
+        //     for (var i = 0; i < document.formulario.text1.value.length; i++) {
+        //         conta = conta + 1;
+        //     }
+        //     alert('la cantidad de caracteres es' + ' ' + conta)
+        // }
+
+    </script>
+</body>
+
+</html>

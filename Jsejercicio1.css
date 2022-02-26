@@ -1,0 +1,29 @@
+#rojo{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#verde{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+#azul{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+#fondo.azul{
+    background-color: blue;
+}
+
+#fondo.verde{
+    background-color: green;
+}
+
+#fondo.rojo{
+   background-color: red;
+}
